@@ -1,38 +1,38 @@
 package conta.model;
 
 public class Conta {
-  private int number, agency, type;
-  private float  balance;
-  private String  accountHolderName;
-public int getNumber() {
-	return number;
+  private int numero, agencia, tipo;
+  private float  saldo;
+  private String  titular;
+public int getNumero() {
+	return numero;
 }
-public void setNumber(int number) {
-	this.number = number;
+
+public void setNumero(int numero) {
+	this.numero = numero;
 }
-public int getAgency() {
-	return agency;
+public int getAgencia() {
+	return agencia;
 }
-public void setAgency(int agency) {
-	this.agency = agency;
+public void setAgencia(int agencia) {
+	this.agencia = agencia;
 }
-public int getType() {
-	return type;
+public int getTipo() {
+	return tipo;
 }
-public void setType(int type) {
-	this.type = type;
+public void setTipo(int tipo) {
+	this.tipo = tipo;
 }
-public float getBalance() {
-	return balance;
+public float getSaldo() {
+	return saldo;
 }
-public void setBalance(float balance) {
-	this.balance = balance;
+public void setSaldo(float saldo) {
+	this.saldo = saldo;
 }
-public String getAccountHolderName() {
-	return accountHolderName;
+public String getTitular() {
+	return titular;
 }
-public void setAccountHolderName(String accountHolderName) {
-	this.accountHolderName = accountHolderName;
+public void setTitular(String titular) {
+	this.titular = titular;
 }
-  
 }
