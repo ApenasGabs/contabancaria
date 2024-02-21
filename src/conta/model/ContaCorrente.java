@@ -1,6 +1,6 @@
 package conta.model;
 
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta  {
   private int limite;
 
   public ContaCorrente(int numero, int agencia, String tipo, String titular, float saldo, int limite) {
