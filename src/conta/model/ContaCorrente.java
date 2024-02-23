@@ -31,5 +31,7 @@ public class ContaCorrente extends Conta  {
   public void visualizar(){
     super.visualizar();
     System.out.println("Seu limite atual e de: " + limite);
+		System.out.println("\n*************************************");
+
   }
 }

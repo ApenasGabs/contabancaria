@@ -6,7 +6,7 @@ import conta.model.ContaPoupanca;
 public class Menu {
 
 	public static void main(String[] args) {
-		ContaPoupanca conta1 = new ContaPoupanca(1, 555, 1, "Gabriel", 321, "9876543211");
+		ContaPoupanca conta1 = new ContaPoupanca(1, 555, 1, "Gabriel", 321);
 		ContaCorrente conta2 = new ContaCorrente(1, 555, "1", "Gabriel", 321, 500);
 		conta1.setAgencia(999);
 		conta2.setAgencia(666);
